@@ -1,0 +1,286 @@
+body{
+/* background-color: hsla(0, 100%, 90%, 0.3); */
+}
+
+/* css for logo banner and footer starts here */
+.logo{
+  border-radius: 50%;
+}
+.nav{
+  list-style-type: none;
+    margin: 10px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+.n{
+  display: inline;
+    color: #666;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+footer{
+  font-size: 12px;
+  border: 1px;
+  border-style: solid;
+  padding: 20px;
+  margin-top: 40px;
+text-align: left;
+background-color: black;
+color: white;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* css for logo banner and footer ends here */
+
+/* css for homepage starts here */
+.aboutus{
+  width: 500px;
+ height: 300px;
+ margin: 3em auto 0;
+ /*background: url(images/makeup.jpg) no-repeat top left, url(images/makeup2.jpg) no-repeat bottom right;*/
+background-color: black;
+border-width: 100px;
+text-align: center;
+padding:100px;
+color:	#FFF5EE;
+background-position: center;
+font-size: 120%;
+}
+
+
+.happy{
+border: 1px;
+border-style: solid;
+padding: 20px;
+margin-left: 80px;
+margin-right:80px;
+text-align: center;
+background-color:black;
+color: white;
+}
+.cust{
+  font-style:italic;
+  font-family: "Times New Roman", Georgia, Serif;
+border: 0px;
+margin-left: 200px;
+margin-right: 200px;
+background-color: #FFE4C4;
+padding: 20px;
+}
+.cust1{
+  border-radius: 50%;
+}
+.cust2{
+  border-radius: 50%;
+}
+.cust3{
+  border-radius: 50%;
+}
+/* css for homepage ends here */
+
+/* css for about us starts here */
+.desc{
+  background: url(images/pastel1.jpg);
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right:250px;
+  background-attachment: fixed;
+
+}
+
+.column1 {
+    float: left;
+    width: 49%;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    /* padding: 10px; */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+  float:left;
+    background-color:RosyBrown;
+    background-clip: content-box;
+    width:30%;
+    margin-left: 30px;
+    margin-right:10px;
+    margin-top:10px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.picture{
+  border-radius: 50%;
+  padding : 50px;
+}
+
+.staff{
+  border: 1px;
+  border-style: solid;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right:80px;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+
+.name{
+  color:#fff;
+
+}
+/* css for about us ends here */
+
+/* css for services starts here */
+
+table, td, th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+
+}
+
+.note{
+  color:DarkGrey;
+  margin-left:50px;
+}
+.notes{
+  margin-top:10px;
+  margin-left:50px;
+  color:Gray;
+  font-style:oblique;
+  font-family: Georgia;
+}
+/* css for services ends here */
+
+/* css for shop starts here */
+/* css for shop ends here */
+
+/* css for news and promotions starts here */
+h1{
+  text-align:center;
+  font-family:fantasy;
+}
+
+*{box-sizing: border-box;}
+.column3 {
+  background-color:Silver;
+  background-clip: content-box;
+  margin-left: 70px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top:20px;
+  width:40%;
+  float:left;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.updates{
+  color:#000;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  background:url(images/makeup1.jpg);
+  background-position: center;
+  background-size: 1500px;
+  background-attachment: fixed;
+}
+/* css for news and promotions ends here */
+
+/* css for contact us starts here */
+
+.salon{
+  margin-left:130px;
+  font-family: sans-serif,monospace;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: DarkSlateGray;
+}
+.salon1{
+  margin-left: 130px;
+
+}
+
+.icon{
+  margin-left: 130px;
+  margin-top: 30px;
+  float:left;
+}
+.icon1{
+  margin-left: 10px;
+  margin-top: 30px;
+  float:left;
+}
+
+.column4{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.addhead{
+  text-align: center;
+}
+.add{
+  font-size: 20px;
+  text-align: center;
+}
+iframe{
+  margin-left:  50px;
+  margin-right: 50px;
+  border-style: none;
+}
+/* Create two unequal columns that floats next to each other */
+
+/* css for contact us ends here */
